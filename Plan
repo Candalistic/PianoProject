@@ -1,0 +1,8 @@
+1. Get the hold of controller object.
+2. Get the frame object by callin controller.frame (or sth like that).
+3. Use ScreenTapGesture to register the key taps.
+4. Use Position property of ScreenTapGesture to determine the place where the tap occurred.
+5. Step 4 returns the Vector object (x,y,z). y is upwards.
+6. Somehow use Vector or properties of ScreenTapGesture to determine the strength of the tap.
+7. Play the correct note of the length depending on the tap strength.
+8. Try to implement the proccessing of multiple taps.
