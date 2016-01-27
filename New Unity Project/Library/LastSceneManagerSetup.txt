@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/piano thing.unity
-  isLoaded: 1
-  isActive: 1
